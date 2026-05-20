@@ -1,0 +1,11 @@
+[project]
+name = "students-api"
+version = "1.0.0"
+description = "API REST para la gestion de estudiantes"
+requires-python = ">=3.10"
+dependencies = [
+    "Flask==3.0.3"
+]
+
+[tool.setuptools]
+py-modules = ["main"]
